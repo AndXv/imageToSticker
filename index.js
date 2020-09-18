@@ -35,7 +35,7 @@ const start = (client = new Client()) => {
                 if (ids.length <= 10) {
                     client.sendText(id, 'Sorry, the minimum group member is 10 user to use this bot. Bye~').then(() => client.leaveGroup(id))
                 } else {
-                    client.sendText(id, `Hello group members *${name}*, thank you for inviting this bot, to see the bot menu send *#menu*`)
+                    client.sendText(id, `Hallo Member Grup *${name}*, terima kasih sudah memasukan bot saya, untuk command*#menu*`)
                 }
             }))
 
